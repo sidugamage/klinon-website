@@ -45,3 +45,14 @@
 .services h5{
   color: white;
 }
+
+.services p{
+  color: white;
+  font-size: x-small;
+}
+
+.services content{
+  background-color: white;
+  height: 180px;
+  width: 280px;
+}
