@@ -2,3 +2,80 @@
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
+.button-content{
+  font-size: 12px;
+}
+
+/* button-dark */
+.button-dark {
+    position: relative;
+    overflow: hidden;
+    height: 2rem;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    background: #41758b;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-dark:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg, #2b3f47 10.8%, #41758b 94.3%);
+    transition: all 0.475s;
+  }
+
+  /* button-light */
+.button-light {
+    position: relative;
+    overflow: hidden;
+    height: 2rem;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    background: #d2eae7;
+    background-size: 400%;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-light:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button-light::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg, #009082 10.8%, #d2eae7 94.3%);
+    transition: all 0.475s;
+  }
