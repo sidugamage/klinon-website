@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-     <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
 
     <link rel="stylesheet" href="styles/style-common.css">
     <link rel="stylesheet" href="styles/home.css">
@@ -14,14 +14,29 @@
 <body>
     <!-- Header Section -->
     <section id="header">
-        <div id="navbar">
-            <ul class="navbarLinks" >
-                <li><a href="#" >HOME</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">PROJECTS</a></li>
-                <li><a href="#">CONTACT US</a></li>
-            </ul>
+        <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+        <div class="container">
+            <a class="navbarlogo" href="#"><img src="img/HomePg/logo 1.png" alt="KLINON"><img
+                    src="img/HomePg/logo 2.png" alt="KLINON"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="me-auto"></div>
+                <ul class="navbar-nav gap-5">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                </ul>
+            </div>
         </div>
+    </nav>
     </section>
     <!-- Projects Section -->
     <section id="projects">
