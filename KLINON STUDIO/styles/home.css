@@ -15,8 +15,8 @@ h5{
 .about{
   background-image: url(/img/HomePg/green-leaves-wall-final.png);
   object-fit: cover;
-  min-height: 85vh;
   height: auto;
+  background-repeat:round;
 }
 
 .about img{
@@ -88,3 +88,5 @@ h5{
   color: white;
   font-size: x-small;
 }
+
+
