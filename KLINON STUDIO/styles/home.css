@@ -1,6 +1,14 @@
 /* Global css */
+h5{
+  font-weight: 650;
+}
 
 
+/* Hero section */
+.hero{
+  object-fit: cover;
+  padding: 0;
+}
 
 
 /* About us section */
@@ -38,7 +46,7 @@
   border-radius: 50%;
 }
 
-.sq img{
+.squar img{
   border-radius: 5px;
 }
 
@@ -46,13 +54,37 @@
   color: white;
 }
 
-.services p{
+
+.text{
+  max-width: 320px;
+  text-align: start;
   color: white;
-  font-size: x-small;
+  font-size: 14px;
 }
 
-.services content{
+.services .content{
   background-color: white;
-  height: 180px;
-  width: 280px;
+  margin: 20px;
+  border-radius: 5px;
+  text-align: start;
+}
+
+.services .content h6{
+  color: black;
+  font-weight: 600;
+}
+
+.services .content p{
+  font-size: 14px;
+  line-height: 8px;
+}
+
+.services .founder{
+  color:black;
+  opacity: 47%;
+}
+
+.Limitless {
+  color: white;
+  font-size: x-small;
 }
